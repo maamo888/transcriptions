@@ -6,12 +6,6 @@
       "Maamo888\\Transcriptions\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "maamo888",
-      "email": "maamo888@users.noreply.github.com"
-    }
-  ],
   "composer-runtime-api": "^2.0",
   "require": {
     "php": ">=8.0"
