@@ -12,6 +12,7 @@
       "email": "maamo888@users.noreply.github.com"
     }
   ],
+  "composer-runtime-api": "^2.0",
   "require": {
     "php": ">=8.0"
   },
