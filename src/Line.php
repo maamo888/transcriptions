@@ -22,9 +22,4 @@ class Line
     {
         return "<a href=\"?time={$this->beginningTimestamp()}\">{$this->body}</a>";
     }
-
-    // public static function valid($line)
-    // {
-    //     return $line !== 'WEBVTT' && $line !== '';
-    // }
 }

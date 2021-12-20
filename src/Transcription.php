@@ -19,7 +19,6 @@ class Transcription
     public function lines(): Lines
     {
         return new Lines(array_map(
-            // fn ($line) => new Line(...$line),
             fn ($line) => new Line((int) $line[0], $line[1], $line[2]),
             array_chunk($this->lines, 3)
         ));
